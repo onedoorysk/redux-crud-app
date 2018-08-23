@@ -6,7 +6,7 @@ import Character from './character'
 
 const app = express()
 const port = process.env.PORT || 3001
-const dbUrl = 'mongodb://localhost/crud'
+const dbUrl = 'mongodb://heroku_1k4t5388:1tg60k98f30ose7orse9had8ro@ds129762.mlab.com:29762/heroku_1k4t5388'
 const requestUrl = '/api/characters'
 
 app.use(express.static(path.join(__dirname, 'client/build')))
